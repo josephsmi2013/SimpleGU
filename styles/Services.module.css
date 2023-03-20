@@ -1,0 +1,67 @@
+.wrapper{
+    background: lightgray;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.wrapper:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.banner{
+    margin: 1%;
+    max-height: 300px;
+    overflow:hidden;
+    position:relative;
+}
+
+.banner h1{
+    position: absolute;
+    color:white;
+    top: 20px;
+    left:50px;
+
+}
+
+.services:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+
+.service h1,.service p{
+    color:white;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.service{
+    float: left;
+    background: grey;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+    height: 140px;
+    position:relative
+}
+
+.service:nth-child(2){
+    top:15px;
+}
+
+.content{
+    color: white;
+    background: grey;
+    margin: 1%;
+    padding: 1%;
+}
+
+.sections{
+    float:left;
+    width:46%;
+    padding:1%;
+    margin:1%;
+    background: white;
+}
